@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { v4 as uuidv4 } from "uuid";
+import "./styles/App.scss";
 
 function App() {
   const [currentScore, setCurrentScore] = useState(0);
@@ -57,15 +58,17 @@ function App() {
   return (
     <div>
       <header>
-        <p>Food Memory Game</p>
-        <p>Score: {currentScore}</p>
-        <p>Best Score: {bestScore}</p>
+        <h1 className="title">Food Memory Game</h1>
+        <div className="scores">
+          <h2>Score: {currentScore}</h2>
+          <h2>Best Score: {bestScore}</h2>
+        </div>
       </header>
 
       <main>
         {cards.map((card) => {
           return (
-            <button
+            <button className="card"
               data-id={card.id}
               key={card.id}
               onClick={(e) => updateCardStatus(e.target.closest("button"))}

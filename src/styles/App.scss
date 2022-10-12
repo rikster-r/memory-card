@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  background-color: hsl(300, 15%, 35%);
+}
+
+#root > div {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  gap: 2rem;
+  min-height: 100vh;
+  padding: 1rem;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .title {
+    font-size: 3rem;
+
+    @media (max-width: 55rem) {
+      font-size: 2rem;
+    }
+  }
+
+  .scores {
+    display: flex;
+    gap: 2rem;
+  }
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 270px);
+  justify-content: center;
+  align-content: center;
+  gap: 1rem;
+
+  @media (max-width: 55rem) {
+    grid-template-columns: repeat(auto-fit, 130px);
+  }
+
+  .card {
+    border-radius: 4rem;
+    padding: 0;
+    border: 0;
+
+    @media (max-width: 55rem) {
+      border-radius: 2rem;
+    }
+
+    &:hover {
+      cursor: pointer;
+    }
+
+    img {
+      width: 100%;
+      height: 100%;
+      border-radius: 4rem;
+
+      @media (max-width: 55rem) {
+        border-radius: 2rem;
+      }
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  @media (max-width: 55rem) {
+    flex-direction: column;
+  }
+}
