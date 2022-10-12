@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/memory-card/static/css/main.625df9e1.css",
+    "main.js": "/memory-card/static/js/main.0c45c7cd.js",
+    "static/media/orange-white-candy.png": "/memory-card/static/media/orange-white-candy.f14c9b867bc368500a26.png",
+    "static/media/chocolate-ball.png": "/memory-card/static/media/chocolate-ball.3309974dff390fd8cbb2.png",
+    "static/media/cookie.png": "/memory-card/static/media/cookie.346f67949a89b92851f6.png",
+    "static/media/pink-candy.png": "/memory-card/static/media/pink-candy.fe1aaba825ee5afe8105.png",
+    "static/media/chocolate-triangle.png": "/memory-card/static/media/chocolate-triangle.16c1608cdb8af84d29f4.png",
+    "static/media/green-candy.png": "/memory-card/static/media/green-candy.718702e18cd68a0353ce.png",
+    "static/media/orange-candy.png": "/memory-card/static/media/orange-candy.6b5ccdcf2d26bf3c7167.png",
+    "static/media/chocolate.png": "/memory-card/static/media/chocolate.2b583aaf3ba6869ed18f.png",
+    "static/media/caramel-stick.png": "/memory-card/static/media/caramel-stick.d39eb9aae690cc4adb5a.png",
+    "static/media/red-candy.png": "/memory-card/static/media/red-candy.60dea866a96f00cf1ce1.png",
+    "static/media/chocolate-cup.png": "/memory-card/static/media/chocolate-cup.db1913311bc88744cc91.png",
+    "static/media/dark-orange-candy.png": "/memory-card/static/media/dark-orange-candy.0ffb8446e2e3b9ecaef2.png",
+    "index.html": "/memory-card/index.html",
+    "main.625df9e1.css.map": "/memory-card/static/css/main.625df9e1.css.map",
+    "main.0c45c7cd.js.map": "/memory-card/static/js/main.0c45c7cd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.625df9e1.css",
+    "static/js/main.0c45c7cd.js"
+  ]
+}
