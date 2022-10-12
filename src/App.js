@@ -41,7 +41,6 @@ function App() {
   };
 
   const updateCardStatus = (target) => {
-    console.log(target.dataset.id);
     const newCards = [...cards];
     const card = newCards.find((card) => card.id === target.dataset.id);
 
@@ -82,6 +81,7 @@ function App() {
       <footer>
         <a href="https://github.com/rikster-r/memory-card">
           &copy; 2022 rikster-r
+          <i className="fa-brands fa-github"></i>
         </a>
         <a href="https://www.freepik.com/free-vector/square-buttons-with-chocolate-hard-sugar-candies-fruit-drops-lollipop-cake-bonbon-vector-cartoon-set-sweet-food-icons-caramel-christmas-candy-cane-confectionery_24417276.htm">
           Images by upklyak on Freepik
